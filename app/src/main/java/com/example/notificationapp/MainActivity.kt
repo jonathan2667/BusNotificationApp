@@ -343,7 +343,7 @@ class MainActivity : AppCompatActivity() {
             .setContentText(contentText)
             .setStyle(NotificationCompat.BigTextStyle().bigText(contentText)) // Use BigTextStyle for longer text
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-            .setSmallIcon(R.drawable.edit)
+            .setSmallIcon(R.drawable.george11)
             .setLargeIcon(bitmapicon) // Large icon
             .setContentIntent(pendingIntent)
             .setAutoCancel(true)
