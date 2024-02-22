@@ -7,6 +7,7 @@ android {
     namespace = "com.example.notificationapp"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.notificationapp"
         minSdk = 24
@@ -16,7 +17,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             isMinifyEnabled = false
