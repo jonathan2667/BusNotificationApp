@@ -148,27 +148,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
-//    private fun setupTermsAndConditionsClickableText() {
-//        val tvTermsConditions = findViewById<TextView>(R.id.tv_terms_conditions)
-//        val fullText = "I agree to the terms and conditions."
-//        val spannableString = SpannableString(fullText)
-//        val clickableSpan = object : ClickableSpan() {
-//            override fun onClick(widget: View) {
-//                val dialogFragment = TermsAndConditionsDialogFragment()
-//                dialogFragment.show(supportFragmentManager, "terms")
-//            }
-//        }
-//
-//        // Assuming "terms and conditions" is at the end
-//        val startIndex = fullText.indexOf("terms and conditions")
-//        val endIndex = startIndex + "terms and conditions".length
-//        spannableString.setSpan(clickableSpan, startIndex, endIndex, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
-//
-//        tvTermsConditions.text = spannableString
-//        tvTermsConditions.movementMethod = LinkMovementMethod.getInstance()
-//        tvTermsConditions.highlightColor = Color.TRANSPARENT // Optional: Removes the default click highlight
-//    }
     private fun setupTermsAndConditionsClickableText() {
         val tvTermsConditions = findViewById<TextView>(R.id.tv_terms_conditions)
         val fullText = "I agree to the terms and conditions."
@@ -289,6 +268,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
     private fun createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val name = "Notification Title 1"
@@ -338,12 +318,11 @@ class MainActivity : AppCompatActivity() {
 
         val bitmapicon = BitmapFactory.decodeResource(resources, R.drawable.george_right2)
         val builder = NotificationCompat.Builder(this, CHANNEL_ID)
-            .setSmallIcon(R.drawable.ic_launcher_foreground)
+            .setSmallIcon(R.drawable.ic_stat_george_left)
             .setContentTitle("Info Plati")
             .setContentText(contentText)
             .setStyle(NotificationCompat.BigTextStyle().bigText(contentText)) // Use BigTextStyle for longer text
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-            .setSmallIcon(R.drawable.george11)
             .setLargeIcon(bitmapicon) // Large icon
             .setContentIntent(pendingIntent)
             .setAutoCancel(true)
@@ -360,20 +339,25 @@ class MainActivity : AppCompatActivity() {
         }
         val pendingIntent: PendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
 
-//        val bitmap = BitmapFactory.decodeResource(applicationContext.resources, R.drawable.revolut)
-
         val randomAmount = Random.nextFloat() * (150 - 5) + 5
-        val builder = NotificationCompat.Builder(this, CHANNEL_ID)
-            .setSmallIcon(R.drawable.ic_launcher_foreground)
-            .setContentTitle("CTP Cluj-Napoca")
-            .setContentText("\uD83D\uDE8E Paid RON3 at CTP Cluj-Napoca\n Spent today: RON${"%.2f".format(randomAmount)}")
+        val btAppChannelId = "channel_id_example_01" // Make sure this matches the ID used when creating the channel
+
+
+        val builder = NotificationCompat.Builder(this, btAppChannelId)
+            .setSmallIcon(R.drawable.banca_transilvania_logo1)
+            .setContentTitle("Banca Transilvania Ctp Cluj Napoca. Cluj, Cluj")
+            .setContentText("3,00 RON")
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-            .setSmallIcon(R.drawable.revolut)
             .setContentIntent(pendingIntent)
-            .setAutoCancel(true) // Automatically removes the notification when tapped
+            .setAutoCancel(true)
 
         with(NotificationManagerCompat.from(this)) {
             notify(notificationId, builder.build())
         }
     }
+
+
+
+
+
 }

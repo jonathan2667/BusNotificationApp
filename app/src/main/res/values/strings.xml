@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">NotificationApp</string>
+    <string name="app_name1">Bt APP</string>
+
     <string name="terms_and_conditions">⚠️ By accessing and utilizing the 🚌 CTP bus notification app, users acknowledge and agree that while the app serves as a learning tool for the author\'s progress 🚀 in software development, the author shall not be held responsible for any misuse or adverse outcomes resulting from its use. The primary intention of the app is to facilitate learning and experimentation in software development techniques. 📚 Any usage of the app for malicious, harmful, or illegal purposes is strictly prohibited. Users are expected to use the app responsibly and in accordance with ethical guidelines. 🛠️ The author disclaims all liability for any damages, losses, or liabilities arising from the misuse or unauthorized use of the app. 🚫️</string>
 </resources>
