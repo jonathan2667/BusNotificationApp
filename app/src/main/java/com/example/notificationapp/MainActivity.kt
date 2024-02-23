@@ -344,8 +344,8 @@ class MainActivity : AppCompatActivity() {
 
 
         val builder = NotificationCompat.Builder(this, btAppChannelId)
-            .setSmallIcon(R.drawable.banca_transilvania_logo1)
-            .setContentTitle("Banca Transilvania Ctp Cluj Napoca. Cluj, Cluj")
+            .setSmallIcon(R.drawable.bt_pay)
+            .setContentTitle("CTP CLUJ NAPOCA, CLUJ NAPOCA")
             .setContentText("3,00 RON")
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .setContentIntent(pendingIntent)
