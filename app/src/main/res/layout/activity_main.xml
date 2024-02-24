@@ -118,14 +118,20 @@
             android:id="@+id/chk_agree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:layout_marginEnd="8dp"/>
 
         <TextView
             android:id="@+id/tv_terms_conditions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:paddingTop="12dp"
             android:text="I agree to the terms and conditions"
-            android:textColor="#E0E0E0"/>
+            android:textSize="18sp"
+            android:textColor="#E0E0E0"
+            android:layout_gravity="center_vertical" />
+
     </LinearLayout>
 
     <RelativeLayout
