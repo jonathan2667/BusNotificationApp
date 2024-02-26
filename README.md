@@ -1,3 +1,8 @@
+---
+**Current Status Update (As of February 26, 2024):** The application is currently undergoing the review process for inclusion in the Google Play Store. We will promptly update this document with the installation link once it has received approval for production release.
+---
+
+
 # 🚌 CTP Bus Notification App
 
 Welcome to the **CTP Bus Notification App**! This Android application 📱 is your ultimate companion for navigating the urban jungle with ease. Designed to keep you informed about your bus travels 🚍, whether you're paying with Revolut, Banca Comercială Română (BCR), or Banca Transilvania (BT), you'll always stay updated on your transactions and schedules. 
