@@ -1,6 +1,5 @@
----
 **Current Status Update (As of February 26, 2024):** The application is currently undergoing the review process for inclusion in the Google Play Store. We will promptly update this document with the installation link once it has received approval for production release.
----
+
 
 
 # 🚌 CTP Bus Notification App
