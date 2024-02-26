@@ -5,12 +5,6 @@ Welcome to the **CTP Bus Notification App**! This Android application 📱 is yo
 
 **Current Status Update (As of February 26, 2024):** The application is currently undergoing the review process for inclusion in the Google Play Store. We will promptly update this document with the installation link once it has received approval for production release.
 
-![Screenshot_20240223_112029](https://github.com/jonathan2667/BusNotificationApp/assets/77002214/2ab9bd86-0d0c-4b37-a5ea-638239cc4bf3)
-![Screenshot_20240223_112008](https://github.com/jonathan2667/BusNotificationApp/assets/77002214/1928f2e1-d62c-4262-9dfa-4bc1770f1a32)
-![Screenshot_20240223_111955](https://github.com/jonathan2667/BusNotificationApp/assets/77002214/132b189d-3c6d-4b44-a793-5bce03370943)
-![screenshot](https://github.com/jonathan2667/BusNotificationApp/assets/77002214/80adba05-598d-4882-aadf-c8dc58a707c2)
-
-
 ## 🌟 Features
 
 - **Customizable Notifications**: Get timely alerts 🚨 for your bus fare payments across different banks. No more guessing if your payment went through!
@@ -50,3 +44,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 Embark on your journey with the **CTP Bus Notification App** and make your daily commute 🛤️ a breeze! 🎉
+
+![Screenshot_20240223_112029](https://github.com/jonathan2667/BusNotificationApp/assets/77002214/2ab9bd86-0d0c-4b37-a5ea-638239cc4bf3)
+![Screenshot_20240223_112008](https://github.com/jonathan2667/BusNotificationApp/assets/77002214/1928f2e1-d62c-4262-9dfa-4bc1770f1a32)
+![Screenshot_20240223_111955](https://github.com/jonathan2667/BusNotificationApp/assets/77002214/132b189d-3c6d-4b44-a793-5bce03370943)
+![screenshot](https://github.com/jonathan2667/BusNotificationApp/assets/77002214/80adba05-598d-4882-aadf-c8dc58a707c2)
+
