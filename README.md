@@ -4,6 +4,8 @@ Welcome to the **CTP Bus Notification App**! This Android application 📱 is yo
 
 **Current Status Update (As of February 26, 2024):** The application is currently undergoing the review process for inclusion in the Google Play Store. We will promptly update this document with the installation link once it has received approval for production release.
 
+**Current Status Update (As of March 27, 2024):** The application is currently live on Google Play Store. 
+https://play.google.com/store/apps/details?id=com.jm.notificationapp&hl=ro
 
 ## 🌟 Features
 
